@@ -110,66 +110,44 @@
 					获取相机使用权限，用于工具页面扫码功能的用户使用
 				</p>
 				<h4>
-					二、集成三方SDK所用到的权限
+					二、uni-AD广告模块集成的三方SDK权限说明
 				</h4>
 				<h5>
-					①推啊
+					sdk名称：uni-AD
+				</h5>
+				<p>
+					sdk用途：基础广告
+					获取的个人信息：设备品牌、型号、操作系统版本、OAID、分辨率、IMEI、android ID、SIM 卡 IMSI 信息、应用名称、应用包名、应用版本号、网络信息、应用安装列表、位置信息时
+					调用的设备权限：android.permission.ACCESS_NETWORK_STATE、android.permission.READ_PHONE_STATE、android.permission.ACCESS_COARSE_LOCATION
+					信息用途：广告投放合作，广告归因、反作弊、安全
+				</p>
+				<h5>
+					sdk名称：推啊
+				</h5>
+				<p>
 					sdk包名：engine.tuifish.com
-					可能获取的个人信息类型：
-					设备品牌、型号、操作系统版本、OAID、分辨率、IMEI、android ID、SIM 卡 IMSI 信息、应用名称、应用包名、应用版本号、网络信息、应用安装列表、位置信息
-				</h5>
-				<p>
-					权限列表：
-					android.permission.ACCESS_NETWORK_STATE
-					android.permission.READ_PHONE_STATE
-					android.permission.ACCESS_COARSE_LOCATION
-					使用目的：识别广告、活动作弊行为；改善 SDK 崩溃率、推送个性化广告；广告投放。
+					获取的个人信息类型：设备品牌、型号、操作系统版本、OAID、分辨率、IMEI、android ID、SIM 卡 IMSI 信息、应用名称、应用包名、应用版本号、网络信息、应用安装列表、位置信息
+					调用的设备权限：android.permission.ACCESS_NETWORK_STATE、android.permission.READ_PHONE_STATE、android.permission.ACCESS_COARSE_LOCATION
+					信息用途：识别广告、活动作弊行为；改善 SDK 崩溃率、推送个性化广告；广告投放。
 				</p>
 				<h5>
-					②快手
+					sdk名称:快手
+				</h5>
+				<p>
 					sdk包名：com.kwad.sdk
-					可能获取的个人信息类型：
-					基础信息：设备品牌、设备型号、软件系统版本、存储信息、运营商信息、设备时区、设备语言、网络信息等基础信息 设备标识：IMEIs、MEID、OAID、Androidld、IMSIs、ICCID
+					SDK用途:增强广告
+					获取的个人信息类型：基础信息：设备品牌、设备型号、软件系统版本、存储信息、运营商信息、设备时区、设备语言、网络信息等基础信息 设备标识：IMEIs、MEID、OAID、Androidld、IMSIs、ICCID
 					位置信息：IP地址、MAC地址、GPS位置信息、基站信息、WIFI信息 应用信息：应用安装列表 其他信息：传感器信息、sim卡激活信息
-				</h5>
-				<p>
-					权限列表：
-					android.permission.ACCESS_NETWORK_STATE
-					android.permission.INTERNET
-					android.permission.READ_PHONE_STATE
-					android.permission.ACCESS_WIFI_STATE
-					android.permission.REQUEST_INSTALL_PACKAGES
-					android.permission.VIBRATE
-					使用目的：广告投放、广告归因、反作弊、安全
+					权限列表：android.permission.ACCESS_NETWORK_STATE、android.permission.INTERNET、android.permission.READ_PHONE_STATE、android.permission.ACCESS_WIFI_STATE、android.permission.REQUEST_INSTALL_PACKAGES、android.permission.VIBRATE
+					信息用途：广告投放、广告归因、反作弊、安全
 				</p>
 				<h5>
-					③快手内容联盟
-					sdk包名：com.kwad.sdk
-					可能获取的个人信息类型：基础信息：设备品牌、设备型号、软件系统版本、存储信息、运营商信息、设备时区、设备语言、网络信息等基础信息 设备标识：IMEIs、MEID、OAID、Androidld、IMSIs、ICCID
-					位置信息：IP地址、MAC地址、GPS位置信息、基站信息、WIFI信息 应用信息：应用安装列表 其他信息：传感器信息、sim卡激活信息
+					sdk名称：优量汇
 				</h5>
 				<p>
-					权限列表：
-					android.permission.ACCESS_NETWORK_STATE
-					android.permission.INTERNET
-					android.permission.READ_PHONE_STATE
-					android.permission.ACCESS_WIFI_STATE
-					android.permission.REQUEST_INSTALL_PACKAGES
-					android.permission.VIBRATE
-					android.permission.SET_WALLPAPER
-					android.permission.READ_EXTERNAL_STORAGE
-					android.permission.WRITE_EXTERNAL_STORAGE
-					android.permission.ACCESS_COARSE_LOCATION
-					android.permission.BLUETOOTH
-					使用目的：广告投放、广告归因、反作弊、安全
-				</p>
-				<h5>
-					④优量汇
+					sdk用途：增强广告
 					sdk包名：com.qq.e
-					可能获取的个人信息类型：基站、附近的WIFI、连接的WIFI、位置信息、设备制造商、设备型号、操作系统版本、屏幕分辨率、屏幕方向、屏幕DPI、IP地址、加速度传感器、磁场传感器、OAID、IMEI/MEID（Device
-					ID）、Android_ID、包名、版本号、进程名称、运行状态、可疑行为、应用安装信息
-				</h5>
-				<p>
+					获取的个人信息类型：基站、附近的WIFI、连接的WIFI、位置信息、设备制造商、设备型号、操作系统版本、屏幕分辨率、屏幕方向、屏幕DPI、IP地址、加速度传感器、磁场传感器、OAID、IMEI/MEID（Device ID）、Android_ID、包名、版本号、进程名称、运行状态、可疑行为、应用安装信息
 					权限列表：
 					android.permission.INTERNET
 					android.permission.ACCESS_NETWORK_STATE
@@ -180,49 +158,20 @@
 					android.permission.REORDER_TASKS
 					android.permission.VIBRATE
 					android.permission.ACCESS_COARSE_LOCATION
-					使用目的：广告投放与监测归因、广告主统计投放结果、减少App崩溃、确保服务器正常运行、提升可扩展性和性能
+					信息用途：广告投放与监测归因、广告主统计投放结果、减少App崩溃、确保服务器正常运行、提升可扩展性和性能
 				</p>
 				<h5>
-					⑤穿山甲
-					sdk包名：com.bytedance.sdk.openadsdk
-					可能获取的个人信息类型：设备品牌、型号、软件系统版本、分辨率、网络信号强度、IP地址、设备语言、传感器信息等基础信息、无线网SSID名称、MAC地址、AndroidID、应用名、应用包名、版本号、应用前后台状态、应用列表信息、运营商信息、设备时区、设备序列号
+					sdk名称：穿山甲
 				</h5>
 				<p>
+					sdk用途：增强广告
+					sdk包名：com.bytedance.sdk.openadsdk
+					获取的个人信息类型：设备品牌、型号、软件系统版本、分辨率、网络信号强度、IP地址、设备语言、传感器信息等基础信息、无线网SSID名称、MAC地址、AndroidID、应用名、应用包名、版本号、应用前后台状态、应用列表信息、运营商信息、设备时区、设备序列号
 					权限列表：
 					android.permission.ACCESS_NETWORK_STATE
 					android.permission.READ_PHONE_STATE
 					android.permission.WRITE_EXTERNAL_STORAGE
-					使用目的：广告投放合作、广告归因、反作弊
-				</p>
-				<h5>
-					⑥Sigmob
-					sdk包名：com.sigmob.windad
-					可能获取的个人信息类型：设备信息：设备品牌、型号、操作系统版本、OAID、分辨率等基础设备信息 应用信息：应用名称、应用包名、应用版本号等 其他：运营商信息、时区
-				</h5>
-				<p>
-					权限列表：android.permission.ACCESS_NETWORK_STATE
-					android.permission.INTERNET
-					android.permission.ACCESS_WIFI_STATE
-					android.permission.CHANGE_WIFI_STATE
-					android.permission.READ_PHONE_STATE
-					android.permission.REQUEST_INSTALL_PACKAGES
-					android.permission.QUERY_ALL_PACKAGES
-					使用目的：广告投放、广告主归因、反作弊
-				</p>
-				<h5>
-					⑦百度百青藤
-					sdk包名：com.baidu.mobads.proxy
-					可能获取的个人信息类型：设备信息：设备品牌、型号、软件系统版本、分辨率、网络信号强度、传感器信息，磁盘总空间、系统总内存空间、手机重启信息、手机系统更新时间等基础信息、OAID、AndroidID、屏幕宽高，屏幕像素密度，系统版本号，设备厂商，设备型号，手机运营商，手机网络状态，设备剩余存储空间，手机重启时间和更新时间
-					开发者应用信息：应用包名、应用前后台状态 设备信息：IMEI、IMSI、MEID 位置信息
-				</h5>
-				<p>
-					权限列表：android.permission.INTERNET
-					android.permission.ACCESS_NETWORK_STATE
-					android.permission.ACCESS_WIFI_STATE
-					android.permission.READ_PHONE_STATE
-					android.permission.ACCESS_COARSE_LOCATION
-					android.permissio.WRITE_EXTERNAL_STORAGE
-					使用目的：为最终用户提供安全保障、改善我们的产品和服务，开展内部审计、数据分析和研究
+					信息用途：广告投放合作、广告归因、反作弊
 				</p>
 				<h4>
 					三、敏感权限获取及说明
